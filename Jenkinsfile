@@ -10,7 +10,7 @@ Jenkinsfile
 		success {
 		
 		echo 'Now archiving ...'
-		archiveArtifacts atifacts:'**target/*.war'
+		archiveArtifacts artifacts:'**target/*.war'
         }
 }
 }
